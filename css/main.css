@@ -1,0 +1,26 @@
+@font-face{
+    font-family:"dolcevita";
+	src:url("/fonts/dolcevita.ttf");
+}
+
+body {
+    z-index: -2;
+    background-color: #06afc7;
+}
+
+#header {
+    z-index: -1;
+    box-shadow: 0px 0px 10px #0096ab;
+    font-family: dolcevita;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+#title {
+    z-index: 1;
+    box-shadow: 0px 0px 10px #0098ae;
+    background-color: #12dadf;
+    font-family: dolcevita;
+    text-align: center;
+    font-size: 50px;
+}
