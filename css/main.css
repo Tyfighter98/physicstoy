@@ -6,21 +6,53 @@
 body {
     z-index: -2;
     background-color: #06afc7;
+    margin: 0;
 }
 
-#header {
-    z-index: -1;
-    box-shadow: 0px 0px 10px #0096ab;
-    font-family: dolcevita;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 25px;
-}
 #title {
     z-index: 1;
     box-shadow: 0px 0px 10px #0098ae;
     background-color: #12dadf;
     font-family: dolcevita;
     text-align: center;
-    font-size: 50px;
+}
+
+#title h1 {
+    font-size: 75px;
+}
+
+.nav {
+    height: 40px;
+    background-color: #00889c;
+    font-size: 25px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style: none;   
+}
+
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+}
+
+.nav ul li a:hover {
+    color: white;
+}
+
+#title #nav {
+}
+
+.divcenter {
+   margin-left: auto;
+   margin-right: auto;
 }
