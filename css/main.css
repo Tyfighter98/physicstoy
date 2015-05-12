@@ -36,7 +36,7 @@ body {
 
 .nav ul li {
     list-style: none;
-    margin-left: 680px;
+    margin-left: 695px;
 }
 
 .nav ul li a {
@@ -52,10 +52,19 @@ body {
     color: white;
 }
 
-#title #nav {
-}
-
 .divcenter {
    margin-left: auto;
    margin-right: auto;
+}
+
+#info {
+    font-family: dolcevita;
+    font-size: 20px;
+    text-align: center;
+}
+
+#materials {
+    font-family: dolcevita;
+    text-align: center;
+    font-size: 20px;
 }
