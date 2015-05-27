@@ -100,5 +100,13 @@ body {
     background: #00b1ca;
     padding-top: 5px;
     box-shadow: 0px 0px 10px #009db4;
-    
+}
+
+#flashlight-wire {
+    z-index: 0;
+    width: 410px;
+    height: 470px;
+    background: #00b1ca;
+    padding-top: 5px;
+    box-shadow: 0px 0px 10px #009db4;
 }
