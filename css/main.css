@@ -7,6 +7,7 @@ body {
     z-index: -2;
     background-color: #10c4c8;
     margin: 0;
+    padding-bottom: 10px;
 }
 
 #title {
@@ -28,7 +29,6 @@ body {
     z-index: 0;
     background-color: #00889c;
     box-shadow: 0px 0px 10px #007a8c;
-    
     font-size: 25px;
 }
 
@@ -111,7 +111,7 @@ body {
     box-shadow: 0px 0px 10px #009db4;
 }
 
-#intor {
+#intro {
     font-family: dolcevita;
     z-index: -1;
     box-shadow: 0px 0px 10px #0098ae;
@@ -119,5 +119,44 @@ body {
     text-align: center;
     background-color: #00c5e1;
     width: 1800px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+#manual {
+    font-family: dolcevita;
+    z-index: -1;
+    box-shadow: 0px 0px 10px #0098ae;
+    font-size: 20px;
+    text-align: center;
+    background-color: #00c5e1;
+    width: 1800px;
+    padding-bottom: 5px;
+
+}
+
+#manual a {
+    text-align: center;
+}
+#instructions-list ul li {
+    list-style: none;
+}
+
+#instructions h2 {
+    text-align: center;
+}
+
+#safety-list ul li p {
+    text-align: center;
+}
+
+#safety-list ul li {
+    list-style: none;
+}
+
+#legal {
+    text-align: center;
+}
+
+#disclaimer {
+    font-size: 12px;
 }
