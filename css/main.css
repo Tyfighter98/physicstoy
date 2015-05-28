@@ -160,3 +160,12 @@ body {
 #disclaimer {
     font-size: 12px;
 }
+
+#BoM {
+    z-index: 0;
+    width: 1367px;
+    height: 855px;
+    background: #00b1ca;
+    padding-top: 5px;
+    box-shadow: 0px 0px 10px #009db4;
+}
