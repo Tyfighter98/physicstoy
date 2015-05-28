@@ -30,6 +30,7 @@ body {
     background-color: #00889c;
     box-shadow: 0px 0px 10px #007a8c;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .nav ul {
@@ -168,4 +169,8 @@ body {
     background: #00b1ca;
     padding-top: 5px;
     box-shadow: 0px 0px 10px #009db4;
+}
+
+#marburg-logo {
+
 }
